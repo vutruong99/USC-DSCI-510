@@ -1,2 +1,2 @@
-# Principles of Programming for Data Science - DSCI - 510 - University of Southern California
-This repository includes my notebooks for the DSCI - 510 course at USC
+# USC-DSCI-510
+This repository includes my notebooks for the Principles of Programming for Data Science course at the University of Southern California
