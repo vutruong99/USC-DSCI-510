@@ -1,0 +1,13 @@
+a) The output of print(ten + two) is 12, because the value of the variable two is 2 and ten is 10, so 2 + 10 will be 12.
+
+b) The output of print(ten + 1) is 11, because the value of variable ten is 10, so 10 + 1 will be 11.
+
+c) The output of print (two - 1 * zero - 0 + 10 ** ten) is 10000000001, because Python will compute the value of 10 to the power of ten (10) first, so the answer will be 2 - 1 - 0 + 10000000000 = 10000000001.
+
+d) The output of if zero - 1:
+    			print('ten') is empty because zero – 1 = 1 – 1 = 0, and the if condition checks for a non-zero value, therefore nothing was printed to the screen.
+
+e) The output of print(int(two) * 10 % 1 / int(ten) + 1 ** 10) is 1.0, because Python will prioritize *, /, and % first, so int(two) * 10 % 1 / int(ten) would be 2 * 10 % 1 / 10 = 20 % 1 / 10 = 0.0 (since the / operator returns a floating point), then Python will calculate 1 to the power of 10 = 1, finally 0.0 + 1 = 1.0.
+
+f) print('tenplustwo' + tenplustwo + 'ten' + two) will return an error “TypeError: can only concatenate str (not "int") to str” because we are trying to add a string with an integer.
+

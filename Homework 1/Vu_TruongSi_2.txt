@@ -1,0 +1,14 @@
+a) Python is a dynamically typed language. It is also an interpreted and object-oriented programming language.
+
+b) Values from the input()  function in Python are returned as strings.
+
+c) The value of 9 > 6 or abracadabra is True. 
+
+d) Because one of the conditions is true (9 is greater than 6), we do not care about the variable abracadabra.
+
+e) The value of 9 > 6 and abracadabra is an error stating that abracadabra is undefined: "NameError: name "abracadabra" is not defined"
+
+f) The value of the statement above depends on the variable abracadabra. If abracadabra is not defined before the statement, an error will be return. However, if it has a value, then the value of the statement can be True or False depending on abracadabra’s value.
+
+g) Function type() gives information about the type of a Python object.
+

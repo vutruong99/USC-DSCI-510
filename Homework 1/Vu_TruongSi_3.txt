@@ -1,0 +1,20 @@
+Import the random library
+Generate a random integer between 1 and 10 by using the randint function
+Initialize a variable call count = 1 to keep track of the user’s number of tries
+
+Try to execute the flow below:
+Prompt the user for input and assign that to the guess variable
+While the guess does not equal the random integer:
+	Increase count by 1
+
+	If the guess is greater than the random integer:
+		Print the hint saying that the guess is greater
+		Prompt the user for new input and assign that to the guess variable
+
+	If the guess is smaller than the random integer:
+		Print the hint saying that the guess is smaller
+		Prompt the user for new input and assign that to the guess variable
+
+Print the number of tries and notify the user that the guess is correct
+Except:
+	Prompt error message

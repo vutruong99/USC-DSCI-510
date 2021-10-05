@@ -1,0 +1,39 @@
+Try: 
+Prompt the user for input in inches and assign it to the userInput variable
+Initialize a dictionary to store the values for miles/mile/yards/yard/feet/foot/inches/inch
+
+Since we are using inch as the reference for conversion, we must find the rate of conversion for the other units. 1 mile = 63360 inches, 1 yard = 36 inches, 1 foot = 12 inches.
+
+If userInput % 63360 is greater than 1:
+	Assign userInput // 63360 to dictionary[“miles”]
+Else:
+	Assign userInput // 63360 to dictionary[“mile”] 
+
+Assign userInput % 63360 to userInput
+
+If userInput % 36 is greater than 1:
+	Assign userInput // 36 to dictionary[“yards”]
+Else:
+	Assign userInput // 36 to dictionary[“yard”] 
+
+Assign userInput % 36 to userInput
+
+If userInput // 12 is greater than 1:
+	Assign userInput // 12 to dictionary[“feet”]
+Else:
+	Assign userInput // 12 to dictionary[“foot”] 
+
+Assign userInput % 12 to userInput
+
+If userInput is greater than 1:
+	Assign userInput to dictionary[“inches”]
+Else:
+	Assign userInput to dictionary[“inch”] 
+
+Print “You entered”
+For every key in dictionary:
+	If dicionary[key] does not equal to 0:
+		Print dictionary[key], key
+Except: 
+	Prompt error message
+
