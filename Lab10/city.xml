@@ -1,0 +1,59 @@
+<?xml version='1.0' ?>
+<data>
+	<city class="A">
+		<name>
+			Los Angeles
+		</name>
+		<state>
+			California
+		</state>
+		<country>
+			USA
+		</country>
+	</city>
+
+	<city class="A">
+		<name>
+			Paris
+		</name>
+		<country>
+			France
+		</country>
+	</city>
+
+	<city class="A">
+		<name>
+			New York
+		</name>
+		<county>
+			New York
+		</county>
+		<state>
+			new York
+		</state>
+		<country>
+			USA
+		</country>
+	</city>
+
+	<city class="B">
+		<name>
+			London
+		</name>
+		<country>
+			England
+		</country>
+	</city>
+
+	<city class="C">
+		<name>
+			Bangkok
+		</name>
+		<country>
+			Thailand
+		</country>
+	</city>
+
+
+
+</data>
